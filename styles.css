@@ -53,6 +53,31 @@
    margin-bottom: 20px;
 }
 
+@media screen and (max-width: 580px) {
+    .project {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .project-details {
+        margin-top: 20px;
+        padding-left: 10px !important;
+        padding-right: 10px;
+    }
+    .project-details-inverse {
+        margin-top: 20px;
+        padding-right: 10px !important;
+        padding-left: 10px;
+    }
+
+    #form-builder-image {
+        order: 1;
+    }
+    #form-builder-details {
+        order: 2;
+    }
+}
+
 .project-details {
     padding-left: 40px;
     display: flex;
